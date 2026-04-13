@@ -7,7 +7,7 @@ import {FontAwesomeIcon} from "@fortawesome/vue-fontawesome";
 <template>
   <body class="text-center text-ctp-text">
   <div>
-    <Avatar image="images/avatar_too.jpeg" class="m-8 max-w-full h-auto object-contain" size="xlarge" shape="circle" />
+    <Avatar image="images/avatar.JPG" class="m-8 max-w-full h-auto object-contain" size="xlarge" shape="circle" />
     <Fieldset legend="About" toggleable class="ml-20 mr-20">
       <p>
         Born in Germany, raised in the US, educated in the UK and working ... at your company?
@@ -16,17 +16,6 @@ import {FontAwesomeIcon} from "@fortawesome/vue-fontawesome";
         future in App Development. My friends would describe me as a dependable organizer and my neighbours as a communicative problem solver.
         Between changing environments, languages and domains I consider myself resilient and adaptable.</p>
       <p>I like a good challenge and have learnt to scuba dive, ride a motorcycle and use Arch (btw).</p>
-    </Fieldset>
-    <Fieldset class="ml-20 mr-20">
-      <template #legend>
-        <div class="flex items-center pl-2">
-          <font-awesome-icon icon="fa-solid fa-mobile-screen-button" shape="circle" />
-          <span class="font-bold p-2">ADHD Companion App</span>
-        </div>
-      </template>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-      </p>
     </Fieldset>
     <Fieldset class="ml-20 mr-20">
       <template #legend>
